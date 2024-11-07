@@ -1,0 +1,108 @@
+
+body {
+    background-color: #95b0b5;
+    color: #203134;
+    margin: 0;
+}
+
+.navBar {
+    margin-left: 0px;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: #324b4f;
+    overflow: hidden;
+}
+
+.navBar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* mouse over link */
+.navBar a:hover {
+    color: rgb(31, 221, 243);
+}
+/* selected link */
+.navBar a:active {
+    color: #9985cf;
+}
+
+.button {
+    margin-left: 21%;
+}
+
+.main {
+    margin-top: 3.5%;
+    display: inline-block;
+    width: 100%;
+}
+
+.leftButton {
+    display: inherit;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+}
+
+.rightButton {
+    display: inherit;
+    text-align: center;
+    width: 49%;
+    height: 90%;
+}
+
+.btn{
+	display:block;
+	margin:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	position: relative;
+	cursor: pointer;
+    align-content: left;
+}
+
+.btn-shadow-drop {
+	position:relative;
+	background:#251f1f;
+	font-size:0.9em;
+	font-weight:700;
+    padding: 15px;
+    width: 70%;
+	text-transform:uppercase;
+	transition: all 300ms ease-in-out;
+    text-align: center;
+	left:0;
+	top:0;
+}
+.btn-shadow-drop:hover {
+	left:4px;
+	top:4px;
+	box-shadow:0 0 0 0 white;
+}
+.btn-shadow-drop--black{
+	border:1px solid #324b4f;
+	color:#324b4f;
+	box-shadow:4px 4px 0px 0px #324b4f;
+}
+
+.mtgImage {
+    height: 90%;
+    object-fit: fill;
+    vertical-align: top;
+    border: 0;
+    overflow: hidden;
+}
+
+.uaImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: top;
+    border: 0;
+    overflow: hidden;
+}
