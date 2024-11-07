@@ -106,3 +106,21 @@ body {
     border: 0;
     overflow: hidden;
 }
+
+.about {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about > hr {
+    border-color: rgb(31, 221, 243)85cf;
+    
+}
+.contact hr {
+    border-color: rgb(31, 221, 243);
+}
